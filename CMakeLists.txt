@@ -1,0 +1,6 @@
+project(src)
+set(HEADER_FILES Tree.h)
+set(SOURCE_FILES Tree.cpp)
+set(HEADER_FILES Node.h)
+set(SOURCE_FILES Node.cpp)
+add_library(src STATIC ${SOURCE_FILES} ${HEADER_FILES})
